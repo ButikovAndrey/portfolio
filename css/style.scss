@@ -1,5 +1,8 @@
 @import "normalise.css";
-
+body{
+  padding: 0;
+  margin: 0;
+}
 .button{
   cursor: pointer;
   background-color: #F0650D;
@@ -79,8 +82,6 @@
     font-size: 22px;
     transition: 0.5s ease;
     width: 150px;
-    padding: 0;
-    margin: 0;
   }
   &__link:not(:last-child){
     border-bottom: 3px solid black;
@@ -244,6 +245,8 @@
   &__form{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 5px;
     padding: 40px;
     padding: 40px 120px;
     background-color: #293A43;
@@ -257,7 +260,20 @@
     transition: background-color 0.5s ease;
     border-right: 3px solid #293A43;
   }
+  &__textarea{
+    grid-row: 2/-1;
+    grid-column: 1/3;
+    background-color: #466372;
+    font-size: 16px;
+    border: none;
+    color: white;
+    height: 30px;
+    transition: background-color 0.5s ease;
+    border-right: 3px solid #293A43;
+  }
   &__button{
+    grid-column: -1/-2;
+    grid-row: 1/-1;
     border:none;
     padding:none;
     background-color: #F0650D;
@@ -273,6 +289,7 @@
   &__content{
       display: grid;
       grid-template-rows: 1fr 1fr;
+      height: 50vh;
   }
   &__img1{
     background-image: url(../img2/1.jpeg);
@@ -301,12 +318,10 @@
   &__title{
     font-size: 18px;
     transition: color 0.5s ease;
-    padding: 20px;
-    margin-bottom: 0;
+    margin: 0;
   }
 
   &__text{
-    padding: 20px;
     font-size: 16px;
   }
 
