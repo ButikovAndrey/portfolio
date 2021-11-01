@@ -82,6 +82,7 @@ body {
   max-width: 5vw;
   min-width: 65px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .header__links {
