@@ -41,4 +41,10 @@ function closeBurger(){
   }
     list.classList.remove('visible');
     burger.style = "transform: rotate(0deg);";
-};
+}
+links[2].onclick = function(){
+  for(let i = 0; i<portfolios.length; i++){
+      portfolios[i].style.backgroundImage = "url(../img/"+i+".jpg)";
+  }
+}
+
