@@ -47,7 +47,7 @@ tempImg.onclick = function(){
    portfolio.onclick = function(){
       tempImg.src = document.defaultView.getComputedStyle(portfolio, null).backgroundImage.split('"')[1];
       tempHeader.innerText = portfolio.querySelector('.main__portfolio-text').textContent;
-      tempText.innerText = portfolio.querySelector('.main__portfolio-text').textContent;
+      tempText.innerText = portfolio.querySelector('.none').textContent;
      body.style.overflow = "hidden";
      body.appendChild(tempBG);
      body.appendChild(tempFrame);
