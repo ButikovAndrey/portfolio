@@ -1,12 +1,12 @@
 let body = document.querySelector('body');
-let temp = document.querySelector('.template').content;
+let temp = body.querySelector('.template').content;
 let tempBG = temp.querySelector('.template__button');
 let tempClose = temp.querySelector('.template__container-close');
 let tempFrame = temp.querySelector('.template__body');
 let tempImg = temp.querySelector('.template__img');
 let tempHeader = temp.querySelector('.template__header');
 let tempText = temp.querySelector('.template__text');
-let portfolios = document.querySelectorAll('.main__portfolio');
+let portfolios = body.querySelectorAll('.main__portfolio');
 
 function closeDom(frame, closeBG, closeX){
   closeBG.onclick = function(){

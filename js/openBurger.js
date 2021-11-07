@@ -1,4 +1,4 @@
-let header = document.querySelector('.header');
+let header = body.querySelector('.header');
 let nav = header.querySelector('.header__nav');
 let burger = nav.querySelector('.header__burger');
 let list = nav.querySelector('.header__links');

@@ -1,5 +1,5 @@
-let aboutImg = document.querySelectorAll('.about__img');
-let topicImg = document.querySelector('.topic__img');
+let aboutImg = body.querySelectorAll('.about__img');
+let topicImg = body.querySelector('.topic__img');
 
 links[2].onclick = function(){
   this.classList.toggle('special');
