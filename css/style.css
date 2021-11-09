@@ -35,6 +35,25 @@ body {
   background-color: #527485;
 }
 
+.top__arrow {
+  position: fixed;
+  cursor: default;
+  right: 48px;
+  bottom: 48px;
+  width: 50px;
+  border: 2px solid black;
+  z-index: 8;
+  border-radius: 35%;
+  -webkit-transform: rotateX(90deg);
+          transform: rotateX(90deg);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.top:hover .top__arrow {
+  border-radius: 0;
+}
+
 .header {
   position: relative;
   color: white;
