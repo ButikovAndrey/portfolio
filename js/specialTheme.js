@@ -1,7 +1,7 @@
 let aboutImg = body.querySelectorAll('.about__img');
 let topicImg = body.querySelector('.topic__img');
 
-links[2].onclick = function(){
+links[links.length-1].onclick = function(){
   this.classList.toggle('special');
   if(this.classList.contains('special')){
     header.style.backgroundImage = "url(img/bg1.jpg)";

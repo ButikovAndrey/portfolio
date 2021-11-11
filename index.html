@@ -26,11 +26,14 @@
                 <div class="header__menu">
                     <img src="img2/menu.png" alt="" class="header__burger">
                     <ul class="header__links">
-                        <li class="header__link">
+                            <li class="header__link">
                             <p class="header__link-text">Portfolio</p>
                         </li>
                         <li class="header__link">
                             <p class="header__link-text">About Me</p>
+                        </li>
+                        <li class="header__link">
+                            <p class="header__link-text">Feedback</p>
                         </li>
                         <li class="header__link">
                             <p class="header__link-text">Special...</p>
@@ -41,15 +44,16 @@
             <div class="header__greetings">
                 <h1 class="header__text">Hi! My name is Andrew<br>And I'm web developer</h1>
                 <div class="header__buttons">
-                    <input type="button" value="Ok" class="header__button button">
-                    <input type="button" value="Let's Go" class="header__button button gray">
+                    <a href = "#about__me"><input type="button" value="Abot Me" class="header__button button"></a>
+                    <a href = "#projects"><input type="button" value="Portfolio" class="header__button button gray"></a>
                 </div>
             </div>
         </section>
     </header>
     
-    <!-- Section portfolio -->
+    <!-- Section - about me -->
     <main>
+        <a href="#" name = "about__me"></a>
         <section class = "main section__main">
             <div class="main__portfolio main__portfolio-one">
                 <p class="main__portfolio-text">
@@ -123,10 +127,10 @@
                     Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text Some Text
                 </p>
             </div>
-            <button class="main__portfolio-button button">Let's Go</button>
+            <input type="button" value="Let's Go" class="main__portfolio-button button">
         </section>
 
-    <!-- Section introducing -->
+    <!-- Section Call Me -->
         <section class="introducing">
             <div class="topic">
                 <div class="topic__texts">
@@ -140,6 +144,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
         </section>
 
         <!-- Section Feedback -->
+        <a href="#" name = "feedback"></a>
         <section class="feedback">
             <form action="" class="feedback__form">
                 <input type="text" name="" placeholder = "Your name" id="" class="feedback__name">
@@ -150,6 +155,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
         </section>
 
         <!-- Section About -->
+        <a name = "projects"></a>
         <section class="about">
             <div class="about__content">
                 <div class="about__img about__img1"></div>

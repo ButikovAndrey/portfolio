@@ -1,6 +1,9 @@
 @import "normalise.css";
 
 //main styles
+html{
+  scroll-behavior: smooth;
+}
 body{
   padding: 0;
   margin: 0;
@@ -109,6 +112,9 @@ body{
     opacity: 0;
     transition: 0.5s ease;
     width: 150px;
+    &-text{
+      text-decoration: none;
+    }
   }
   &__link:not(:last-child){
     border-bottom: 3px solid black;
